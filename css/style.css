@@ -82,7 +82,6 @@
 /**************************/
 
 .section-hero {
-  background-color: var(--primary-light-1);
   padding: 4.8rem 0 9.6rem 0;
   height: 85vh;
 }
@@ -105,4 +104,221 @@
 
 .hero-img {
   width: 100%;
+}
+
+/**************************/
+/* About us */
+/**************************/
+
+.section-aboutus {
+  height: 100vh;
+  margin: 5rem auto 10rem auto;
+}
+
+.aboutus {
+  max-width: 130rem;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.aboutus-img {
+  width: 100%;
+}
+
+.aboutus-description {
+  font-size: 1.25rem;
+  margin: 3rem;
+}
+
+.section-heading {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/**************************/
+/* Stats */
+/**************************/
+
+.section-stats {
+  height: 100vh;
+}
+
+.stats-items {
+  row-gap: 2rem;
+  column-gap: 4rem;
+}
+
+.stats-item {
+  padding: 4rem;
+  background: var(--primary);
+  color: var(--white);
+  width: 25rem;
+  height: 20rem;
+  margin: 2rem auto;
+  box-shadow: 15px 27px 15px -3px rgba(90, 85, 231, 0.401);
+  border-radius: 9px;
+}
+
+.icon {
+  font-size: 4rem;
+  text-align: center;
+}
+.card-title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.count {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.stats-text {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin: 2rem 0 3rem 0;
+  text-align: center;
+}
+
+/**************************/
+/* Teams */
+/**************************/
+
+a {
+  text-decoration: none;
+}
+
+.h2-text {
+  font-size: 3rem;
+  margin: 40px 0;
+  color: #2c2c2c;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  row-gap: 2rem;
+  column-gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.box {
+  position: relative;
+  min-width: 30rem;
+  background-color: #fff;
+  box-shadow: 2px 3px 30px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.top-bar {
+  width: 50%;
+  height: 4px;
+  background: #507bfc;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.fa-check-circle {
+  color: #17b667;
+}
+
+/* creating heart */
+.heart {
+  color: rgba(155, 155, 155);
+}
+.heart::before {
+  content: "\f004";
+  font-family: fontawesome;
+  line-height: 30px;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.box .heart-btn:checked ~ .heart::before {
+  color: #e41934;
+}
+.heart-btn {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  padding: 1rem;
+  display: none;
+}
+
+.content img {
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: top;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content strong {
+  font-weight: 500;
+  color: #141414;
+  margin-top: 10px;
+}
+.content p {
+  font-size: 0.9rem;
+  color: #7a7a7a;
+  margin: 4px 0px 10px 0px;
+  cursor: pointer;
+}
+.content p:hover {
+  text-decoration: underline;
+}
+
+.btn__card {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.btn__card a i {
+  margin-right: 9px;
+}
+.btn__card a {
+  border-radius: 20px;
+  color: #8b8b8b;
+  padding: 8px 20px;
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+.btn__card a:hover {
+  color: #fff;
+  box-shadow: 2px 5px 15px rgba(80, 123, 252, 0.05);
+  background-color: #507bfc;
+  transition: all ease 0.5s;
 }

@@ -21,31 +21,46 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
 
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous" />
+
     <title>JCTC School</title>
   </head>
   <body>
-    <header class="header">
-      <a href="#">
-        <img class="logo" alt="JCTC logo" src="img/omnifood-logo.png" />
-      </a>
+    <!-- Navigation -->
 
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Home</a></li>
-          <li><a class="main-nav-link" href="#">About Us</a></li>
-          <li><a class="main-nav-link" href="#">Stats</a></li>
-          <li><a class="main-nav-link" href="#">Team</a></li>
-          <li><a class="main-nav-link" href="#">Testimonials</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Let's Talk</a></li>
-        </ul>
-      </nav>
+    <div class="navigation">
+      <header class="header">
+        <a href="#">
+          <img class="logo" alt="JCTC logo" src="img/omnifood-logo.png" />
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#home">Home</a></li>
+            <li><a class="main-nav-link" href="#about-us">About Us</a></li>
+            <li><a class="main-nav-link" href="#stats">Stats</a></li>
+            <li><a class="main-nav-link" href="#team">Team</a></li>
+            <li>
+              <a class="main-nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li>
+              <a class="main-nav-link nav-cta" href="#contact">Let's Talk</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </header>
+    </div>
 
-      <button class="btn-mobile-nav">
-        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-      </button>
-    </header>
-    <section class="section-hero">
+    <!-- Home -->
+
+    <section class="section-hero" id="home">
       <div class="hero">
         <div class="hero-text-box">
           <h1 class="heading-primary">
@@ -56,11 +71,204 @@
             healthy again. Tailored to your personal tastes and nutritional
             needs.
           </p>
-          <a href="#" class="btn btn--full margin-right-sm">Let's Talk</a>
-          <a href="#" class="btn btn--outline">Learn more &darr;</a>
+          <a href="#contact" class="btn btn--full margin-right-sm"
+            >Let's Talk</a
+          >
+          <a href="#about-us" class="btn btn--outline">Learn more &darr;</a>
         </div>
         <div class="hero-img-box">
           <img src="img/hero.png" class="hero-img" alt="JCTC Home page image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About us -->
+
+    <section class="section-aboutus" id="about-us">
+      <div class="section-heading">
+        <h5>Did you know!</h5>
+        <h1 class="heading-primary">About us</h1>
+      </div>
+      <div class="aboutus">
+        <div class="aboutus-img-box">
+          <img
+            src="assets/aboutus.jpeg"
+            class="aboutus-img"
+            alt="JCTC About page image" />
+        </div>
+        <div class="aboutus-text-box">
+          <p class="aboutus-description">
+            Jayateerth's Commerce Tuition Centre started its journey in 2018 as
+            a small institute to provide education in the field of Commerce for
+            PU I and II years students in the district of Vijayapur. With the
+            blessings of His Holiness Shri Satyatmateertharu and under the
+            guidance of Poojya Madhwacharya Mokashi and the valuable support of
+            several mentors this feat has been achieved.
+          </p>
+          <p class="aboutus-description">
+            Accountancy is the subject where everybody counts. Our simple funda
+            is to make every student gain ability to score 100 out of 100 in
+            core subjects of Commerce. Subjects covered here are Accountancy and
+            Economics.
+          </p>
+          <p class="aboutus-description">
+            JCTC is more of a homely environment than student-teacher relation.
+            Chapterwise printed materials will be provided and pattern is set in
+            accordance with that of Department of PUE. Guest Lectures will be
+            frequently conducted from experienced resource persons who will be
+            prominently among Textbook Committee members and Exam Evaluators.
+            Motivational speeches and career guidance will be given by well
+            known speakers which will help students in decision making. Exam
+            Tips from Top scorers who topped to the State and District levels in
+            II PU will be an important attraction. Without pressurizing
+            students, occasionally quiz and gamings will be organised.
+          </p>
+          <p class="aboutus-description">
+            Once in 3 months, pre-finals will be conducted which depicts board
+            exam pattern. Fees will be reasonable considering the middle class
+            families. Institution is at the heart of the city and has convenient
+            conveyance. Recently, JCTC stepped up towards Coaching of
+            Professional Courses ( Foundation ).As it is well said, let our
+            results speak. In our journey of 5 years, we have attained wonderful
+            100% result Consistently.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- stats -->
+
+    <section class="section-stats" id="stats">
+      <div class="section-heading">
+        <h5>Look at these!</h5>
+        <h1 class="heading-primary">Stats</h1>
+        <p class="stats-text">We are proud to announce this</p>
+      </div>
+      <div class="stats">
+        <div class="stats-items grid grid--2-cols">
+          <div class="stats-item">
+            <div class="icon">
+              <ion-icon name="people-outline"></ion-icon>
+            </div>
+            <p class="card-title">Students</p>
+            <div class="count" data-countset="150">0</div>
+          </div>
+          <div class="stats-item">
+            <div class="icon">
+              <ion-icon name="people-outline"></ion-icon>
+            </div>
+            <p class="card-title">Teacher</p>
+            <div class="count" data-countset="50">0</div>
+          </div>
+          <div class="stats-item">
+            <div class="icon">
+              <ion-icon name="people-outline"></ion-icon>
+            </div>
+            <p class="card-title">Passing</p>
+            <div class="count" data-countset="15">0</div>
+          </div>
+          <div class="stats-item">
+            <div class="icon">
+              <ion-icon name="people-outline"></ion-icon>
+            </div>
+            <p class="card-title">courses</p>
+            <div class="count" data-countset="10">0</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team member -->
+    <section id="team">
+      <h2 class="h2-text">Team Members</h2>
+      <div class="container grid grid--2-cols">
+        <div class="box">
+          <div class="top-bar"></div>
+          <div class="top">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <input type="checkbox" class="heart-btn" id="heart-btn-1" />
+            <label class="heart" for="heart-btn-1"></label>
+          </div>
+          <div class="content">
+            <img
+              src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              alt="" />
+            <strong>Jayateerth Chapper</strong>
+            <p>abc@gmail.com</p>
+          </div>
+          <div class="btn__card">
+            <a href="#"
+              ><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a
+            >
+            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top-bar"></div>
+          <div class="top">
+            <div>
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+            </div>
+            <div>
+              <input type="checkbox" class="heart-btn" id="heart-btn-2" />
+              <label class="heart" for="heart-btn-2"></label>
+            </div>
+          </div>
+          <div class="content">
+            <img
+            src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+            alt="">
+            <strong>Rohan Tolani</strong>
+            <p>rooohan@gmail.com</p>
+          </div>
+          <div class="btn__card">
+            <a href="#"
+              ><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a
+            >
+            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top-bar"></div>
+          <div class="top">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <input type="checkbox" class="heart-btn" id="heart-btn-3" />
+            <label class="heart" for="heart-btn-3"></label>
+          </div>
+          <div class="content">
+            <img
+            src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+            alt="">
+            <strong>Raquel John</strong>
+            <p>Raqueljohn@gmail.com</p>
+          </div>
+          <div class="btn__card">
+            <a href="#"
+              ><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a
+            >
+            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top-bar"></div>
+          <div class="top">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <input type="checkbox" class="heart-btn" id="heart-btn-4" />
+            <label class="heart" for="heart-btn-4"></label>
+          </div>
+          <div class="content">
+            <img
+            src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+            alt="">
+            <strong>Priya Mehra</strong>
+            <p>priyamehraa@gmail.com</p>
+          </div>
+          <div class="btn__card">
+            <a href="#"
+              ><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a
+            >
+            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+          </div>
         </div>
       </div>
     </section>

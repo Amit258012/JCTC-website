@@ -82,6 +82,8 @@ Medium: 11px
 
   --white: #fff;
 
+  --secondary: #c4b0ff;
+
   /* Grey */
   --grey-1: #888;
   --grey-2: #767676; /*(lightest grey allowed on var(--white) */
@@ -125,6 +127,8 @@ body {
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
+
+  background-color: var(--primary-light-1);
 }
 
 /**************************/
