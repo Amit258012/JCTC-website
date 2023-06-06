@@ -82,7 +82,7 @@ Medium: 11px
 
   --white: #fff;
 
-  --secondary: #c4b0ff;
+  --secondary: #b0fff1;
 
   /* Grey */
   --grey-1: #888;
@@ -128,12 +128,18 @@ body {
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 
-  background-color: var(--primary-light-1);
+  /* background-color: var(--primary-light-1); */
+  background-color: #e3f2fd;
 }
 
 /**************************/
 /* GENRAL REUSABLE COMPONENTS */
 /**************************/
+
+h5 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
 
 .container {
   /* 1140px */
