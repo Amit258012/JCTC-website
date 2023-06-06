@@ -40,306 +40,409 @@
     <title>JCTC School</title>
   </head>
   <body>
-    <!-- Navigation -->
+    <main>
+      <!-- Navigation -->
+      <div class="navigation">
+        <header class="header">
+          <a href="#">
+            <img class="logo" alt="JCTC logo" src="img/omnifood-logo.png" />
+          </a>
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li><a class="main-nav-link" href="#home">Home</a></li>
+              <li><a class="main-nav-link" href="#about-us">About Us</a></li>
+              <li><a class="main-nav-link" href="#stats">Stats</a></li>
+              <li><a class="main-nav-link" href="#team">Team</a></li>
+              <li>
+                <a class="main-nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li>
+                <a class="main-nav-link nav-cta" href="#contact">Let's Talk</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </header>
+      </div>
+      <!-- Home -->
+      <section class="section-hero" id="home">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              A healthy meal delivered to your door, every single day
+            </h1>
+            <p class="hero-description">
+              The smart 365-days-per-year food subscription that will make you
+              eat healthy again. Tailored to your personal tastes and
+              nutritional needs.
+            </p>
+            <a href="#contact" class="btn btn--full margin-right-sm"
+              >Let's Talk</a
+            >
+            <a href="#about-us" class="btn btn--outline">Learn more &darr;</a>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="assets/hero-img.jpeg"
+              class="hero-img"
+              alt="JCTC Home page image" />
+          </div>
+        </div>
+      </section>
+      <!-- About us -->
+      <section class="section-aboutus" id="about-us">
+        <div class="section-heading">
+          <h5>Did you know!</h5>
+          <h1 class="heading-primary">About us</h1>
+        </div>
+        <div class="aboutus">
+          <div class="aboutus-img-box">
+            <img
+              src="assets/aboutus.jpeg"
+              class="aboutus-img"
+              alt="JCTC About page image" />
+          </div>
+          <div class="aboutus-text-box">
+            <p class="aboutus-description">
+              Jayateerth's Commerce Tuition Centre started its journey in 2018
+              as a small institute to provide education in the field of Commerce
+              for PU I and II years students in the district of Vijayapur. With
+              the blessings of His Holiness Shri Satyatmateertharu and under the
+              guidance of Poojya Madhwacharya Mokashi and the valuable support
+              of several mentors this feat has been achieved.
+            </p>
+            <p class="aboutus-description">
+              Accountancy is the subject where everybody counts. Our simple
+              funda is to make every student gain ability to score 100 out of
+              100 in core subjects of Commerce. Subjects covered here are
+              Accountancy and Economics.
+            </p>
+            <p class="aboutus-description">
+              JCTC is more of a homely environment than student-teacher
+              relation. Chapterwise printed materials will be provided and
+              pattern is set in accordance with that of Department of PUE. Guest
+              Lectures will be frequently conducted from experienced resource
+              persons who will be prominently among Textbook Committee members
+              and Exam Evaluators. Motivational speeches and career guidance
+              will be given by well known speakers which will help students in
+              decision making. Exam Tips from Top scorers who topped to the
+              State and District levels in II PU will be an important
+              attraction. Without pressurizing students, occasionally quiz and
+              gamings will be organised.
+            </p>
+            <p class="aboutus-description">
+              Once in 3 months, pre-finals will be conducted which depicts board
+              exam pattern. Fees will be reasonable considering the middle class
+              families. Institution is at the heart of the city and has
+              convenient conveyance. Recently, JCTC stepped up towards Coaching
+              of Professional Courses ( Foundation ).As it is well said, let our
+              results speak. In our journey of 5 years, we have attained
+              wonderful 100% result Consistently.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- stats -->
+      <section class="section-stats" id="stats">
+        <div class="section-heading">
+          <h5>Look at these!</h5>
+          <h1 class="heading-primary">Stats</h1>
+          <p class="stats-text">We are proud to announce this</p>
+        </div>
+        <div class="stats">
+          <div class="stats-items grid grid--2-cols">
+            <div class="stats-item">
+              <div class="icon">
+                <ion-icon name="people-outline"></ion-icon>
+              </div>
+              <p class="card-title">Students</p>
+              <div class="count" data-countset="150">0</div>
+            </div>
+            <div class="stats-item">
+              <div class="icon">
+                <ion-icon name="people-outline"></ion-icon>
+              </div>
+              <p class="card-title">Teacher</p>
+              <div class="count" data-countset="50">0</div>
+            </div>
+            <div class="stats-item">
+              <div class="icon">
+                <ion-icon name="people-outline"></ion-icon>
+              </div>
+              <p class="card-title">Passing</p>
+              <div class="count" data-countset="15">0</div>
+            </div>
+            <div class="stats-item">
+              <div class="icon">
+                <ion-icon name="people-outline"></ion-icon>
+              </div>
+              <p class="card-title">courses</p>
+              <div class="count" data-countset="10">0</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Team member -->
+      <section id="team">
+        <h2 class="h2-text">Team Members</h2>
+        <div class="container-team grid grid--2-cols">
+          <div class="box">
+            <div class="top-bar"></div>
+            <div class="top">
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+              <input type="checkbox" class="heart-btn" id="heart-btn-1" />
+              <label class="heart" for="heart-btn-1"></label>
+            </div>
+            <div class="content">
+              <img
+                src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                alt="" />
+              <strong>Jayateerth Chapper</strong>
+              <p>abc@gmail.com</p>
+            </div>
+            <div class="btn__card">
+              <a href="#"
+                ><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a
+              >
+              <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="top-bar"></div>
+            <div class="top">
+              <div>
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+              </div>
+              <div>
+                <input type="checkbox" class="heart-btn" id="heart-btn-2" />
+                <label class="heart" for="heart-btn-2"></label>
+              </div>
+            </div>
+            <div class="content">
+              <img
+              src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+              alt="">
+              <strong>Rohan Tolani</strong>
+              <p>rooohan@gmail.com</p>
+            </div>
+            <div class="btn__card">
+              <a href="#"
+                ><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a
+              >
+              <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="top-bar"></div>
+            <div class="top">
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+              <input type="checkbox" class="heart-btn" id="heart-btn-3" />
+              <label class="heart" for="heart-btn-3"></label>
+            </div>
+            <div class="content">
+              <img
+              src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+              alt="">
+              <strong>Raquel John</strong>
+              <p>Raqueljohn@gmail.com</p>
+            </div>
+            <div class="btn__card">
+              <a href="#"
+                ><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a
+              >
+              <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="top-bar"></div>
+            <div class="top">
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+              <input type="checkbox" class="heart-btn" id="heart-btn-4" />
+              <label class="heart" for="heart-btn-4"></label>
+            </div>
+            <div class="content">
+              <img
+              src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+              alt="">
+              <strong>Priya Mehra</strong>
+              <p>priyamehraa@gmail.com</p>
+            </div>
+            <div class="btn__card">
+              <a href="#"
+                ><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a
+              >
+              <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="container-testimonial">
+        <div class="testimonial mySwiper">
+          <div class="testi-content swiper-wrapper">
+            <div class="slide swiper-slide">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                saepe provident dolorem a quaerat quo error facere nihil deleniti
+                eligendi ipsum adipisci, fugit, architecto amet asperiores
+                doloremque deserunt eum nemo.
+              </p>
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+              <div class="details">
+                <span class="name">Marnie Lotter</span>
+                <span class="job">Web Developer</span>
+              </div>
+            </div>
+            <div class="slide swiper-slide">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                saepe provident dolorem a quaerat quo error facere nihil deleniti
+                eligendi ipsum adipisci, fugit, architecto amet asperiores
+                doloremque deserunt eum nemo.
+              </p>
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+              <div class="details">
+                <span class="name">Marnie Lotter</span>
+                <span class="job">Web Developer</span>
+              </div>
+            </div>
+            <div class="slide swiper-slide">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                saepe provident dolorem a quaerat quo error facere nihil deleniti
+                eligendi ipsum adipisci, fugit, architecto amet asperiores
+                doloremque deserunt eum nemo.
+              </p>
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+              <div class="details">
+                <span class="name">Marnie Lotter</span>
+                <span class="job">Web Developer</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next nav-btn"></div>
+          <div class="swiper-button-prev nav-btn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section> -->
+      <section id="contact" class="section-cta">
+        <div class="container-cta">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Get your first meal for free!</h2>
+              <p class="cta-text">
+                Healthy, tasty and hassle-free meals are waiting for you. Start
+                eating well today. You can cancel or pause anytime. And the
+                first meal is on us!
+              </p>
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Amit J"
+                    required />
+                </div>
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="jctc@gmail.com"
+                    required />
+                </div>
+                <div>
+                  <label for="message">Message Us!</label>
+                  <input
+                    type="text"
+                    id="message"
+                    placeholder="Text us to get more information" />
+                </div>
+                <button class="btn btn--form">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+          </a>
 
-    <div class="navigation">
-      <header class="header">
-        <a href="#">
-          <img class="logo" alt="JCTC logo" src="img/omnifood-logo.png" />
-        </a>
-        <nav class="main-nav">
-          <ul class="main-nav-list">
-            <li><a class="main-nav-link" href="#home">Home</a></li>
-            <li><a class="main-nav-link" href="#about-us">About Us</a></li>
-            <li><a class="main-nav-link" href="#stats">Stats</a></li>
-            <li><a class="main-nav-link" href="#team">Team</a></li>
+          <ul class="social-links">
             <li>
-              <a class="main-nav-link" href="#testimonials">Testimonials</a>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
             </li>
             <li>
-              <a class="main-nav-link nav-cta" href="#contact">Let's Talk</a>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
             </li>
           </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >hello@omnifood.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
         </nav>
-        <button class="btn-mobile-nav">
-          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-        </button>
-      </header>
-    </div>
 
-    <!-- Home -->
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Omnifood</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Cooking partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
 
-    <section class="section-hero" id="home">
-      <div class="hero">
-        <div class="hero-text-box">
-          <h1 class="heading-primary">
-            A healthy meal delivered to your door, every single day
-          </h1>
-          <p class="hero-description">
-            The smart 365-days-per-year food subscription that will make you eat
-            healthy again. Tailored to your personal tastes and nutritional
-            needs.
-          </p>
-          <a href="#contact" class="btn btn--full margin-right-sm"
-            >Let's Talk</a
-          >
-          <a href="#about-us" class="btn btn--outline">Learn more &darr;</a>
-        </div>
-        <div class="hero-img-box">
-          <img
-            src="assets/hero-img.jpeg"
-            class="hero-img"
-            alt="JCTC Home page image" />
-        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
       </div>
-    </section>
-
-    <!-- About us -->
-
-    <section class="section-aboutus" id="about-us">
-      <div class="section-heading">
-        <h5>Did you know!</h5>
-        <h1 class="heading-primary">About us</h1>
-      </div>
-      <div class="aboutus">
-        <div class="aboutus-img-box">
-          <img
-            src="assets/aboutus.jpeg"
-            class="aboutus-img"
-            alt="JCTC About page image" />
-        </div>
-        <div class="aboutus-text-box">
-          <p class="aboutus-description">
-            Jayateerth's Commerce Tuition Centre started its journey in 2018 as
-            a small institute to provide education in the field of Commerce for
-            PU I and II years students in the district of Vijayapur. With the
-            blessings of His Holiness Shri Satyatmateertharu and under the
-            guidance of Poojya Madhwacharya Mokashi and the valuable support of
-            several mentors this feat has been achieved.
-          </p>
-          <p class="aboutus-description">
-            Accountancy is the subject where everybody counts. Our simple funda
-            is to make every student gain ability to score 100 out of 100 in
-            core subjects of Commerce. Subjects covered here are Accountancy and
-            Economics.
-          </p>
-          <p class="aboutus-description">
-            JCTC is more of a homely environment than student-teacher relation.
-            Chapterwise printed materials will be provided and pattern is set in
-            accordance with that of Department of PUE. Guest Lectures will be
-            frequently conducted from experienced resource persons who will be
-            prominently among Textbook Committee members and Exam Evaluators.
-            Motivational speeches and career guidance will be given by well
-            known speakers which will help students in decision making. Exam
-            Tips from Top scorers who topped to the State and District levels in
-            II PU will be an important attraction. Without pressurizing
-            students, occasionally quiz and gamings will be organised.
-          </p>
-          <p class="aboutus-description">
-            Once in 3 months, pre-finals will be conducted which depicts board
-            exam pattern. Fees will be reasonable considering the middle class
-            families. Institution is at the heart of the city and has convenient
-            conveyance. Recently, JCTC stepped up towards Coaching of
-            Professional Courses ( Foundation ).As it is well said, let our
-            results speak. In our journey of 5 years, we have attained wonderful
-            100% result Consistently.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- stats -->
-
-    <section class="section-stats" id="stats">
-      <div class="section-heading">
-        <h5>Look at these!</h5>
-        <h1 class="heading-primary">Stats</h1>
-        <p class="stats-text">We are proud to announce this</p>
-      </div>
-      <div class="stats">
-        <div class="stats-items grid grid--2-cols">
-          <div class="stats-item">
-            <div class="icon">
-              <ion-icon name="people-outline"></ion-icon>
-            </div>
-            <p class="card-title">Students</p>
-            <div class="count" data-countset="150">0</div>
-          </div>
-          <div class="stats-item">
-            <div class="icon">
-              <ion-icon name="people-outline"></ion-icon>
-            </div>
-            <p class="card-title">Teacher</p>
-            <div class="count" data-countset="50">0</div>
-          </div>
-          <div class="stats-item">
-            <div class="icon">
-              <ion-icon name="people-outline"></ion-icon>
-            </div>
-            <p class="card-title">Passing</p>
-            <div class="count" data-countset="15">0</div>
-          </div>
-          <div class="stats-item">
-            <div class="icon">
-              <ion-icon name="people-outline"></ion-icon>
-            </div>
-            <p class="card-title">courses</p>
-            <div class="count" data-countset="10">0</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Team member -->
-    <section id="team">
-      <h2 class="h2-text">Team Members</h2>
-      <div class="container-team grid grid--2-cols">
-        <div class="box">
-          <div class="top-bar"></div>
-          <div class="top">
-            <i class="fa fa-check-circle" aria-hidden="true"></i>
-            <input type="checkbox" class="heart-btn" id="heart-btn-1" />
-            <label class="heart" for="heart-btn-1"></label>
-          </div>
-          <div class="content">
-            <img
-              src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-              alt="" />
-            <strong>Jayateerth Chapper</strong>
-            <p>abc@gmail.com</p>
-          </div>
-          <div class="btn__card">
-            <a href="#"
-              ><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a
-            >
-            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="top-bar"></div>
-          <div class="top">
-            <div>
-              <i class="fa fa-check-circle" aria-hidden="true"></i>
-            </div>
-            <div>
-              <input type="checkbox" class="heart-btn" id="heart-btn-2" />
-              <label class="heart" for="heart-btn-2"></label>
-            </div>
-          </div>
-          <div class="content">
-            <img
-            src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
-            alt="">
-            <strong>Rohan Tolani</strong>
-            <p>rooohan@gmail.com</p>
-          </div>
-          <div class="btn__card">
-            <a href="#"
-              ><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a
-            >
-            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="top-bar"></div>
-          <div class="top">
-            <i class="fa fa-check-circle" aria-hidden="true"></i>
-            <input type="checkbox" class="heart-btn" id="heart-btn-3" />
-            <label class="heart" for="heart-btn-3"></label>
-          </div>
-          <div class="content">
-            <img
-            src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-            alt="">
-            <strong>Raquel John</strong>
-            <p>Raqueljohn@gmail.com</p>
-          </div>
-          <div class="btn__card">
-            <a href="#"
-              ><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a
-            >
-            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="top-bar"></div>
-          <div class="top">
-            <i class="fa fa-check-circle" aria-hidden="true"></i>
-            <input type="checkbox" class="heart-btn" id="heart-btn-4" />
-            <label class="heart" for="heart-btn-4"></label>
-          </div>
-          <div class="content">
-            <img
-            src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-            alt="">
-            <strong>Priya Mehra</strong>
-            <p>priyamehraa@gmail.com</p>
-          </div>
-          <div class="btn__card">
-            <a href="#"
-              ><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a
-            >
-            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- <section class="container-testimonial">
-
-      <div class="testimonial mySwiper">
-        <div class="testi-content swiper-wrapper">
-          <div class="slide swiper-slide">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
-              saepe provident dolorem a quaerat quo error facere nihil deleniti
-              eligendi ipsum adipisci, fugit, architecto amet asperiores
-              doloremque deserunt eum nemo.
-            </p>
-
-            <i class="bx bxs-quote-alt-left quote-icon"></i>
-
-            <div class="details">
-              <span class="name">Marnie Lotter</span>
-              <span class="job">Web Developer</span>
-            </div>
-          </div>
-          <div class="slide swiper-slide">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
-              saepe provident dolorem a quaerat quo error facere nihil deleniti
-              eligendi ipsum adipisci, fugit, architecto amet asperiores
-              doloremque deserunt eum nemo.
-            </p>
-
-            <i class="bx bxs-quote-alt-left quote-icon"></i>
-
-            <div class="details">
-              <span class="name">Marnie Lotter</span>
-              <span class="job">Web Developer</span>
-            </div>
-          </div>
-          <div class="slide swiper-slide">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
-              saepe provident dolorem a quaerat quo error facere nihil deleniti
-              eligendi ipsum adipisci, fugit, architecto amet asperiores
-              doloremque deserunt eum nemo.
-            </p>
-
-            <i class="bx bxs-quote-alt-left quote-icon"></i>
-
-            <div class="details">
-              <span class="name">Marnie Lotter</span>
-              <span class="job">Web Developer</span>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-button-next nav-btn"></div>
-        <div class="swiper-button-prev nav-btn"></div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </section> -->
+    </footer>
   </body>
 </html>
